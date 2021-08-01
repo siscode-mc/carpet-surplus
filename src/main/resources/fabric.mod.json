@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "carpet-surplus",
+  "version": "${version}",
+
+  "name": "Carpet Surplus",
+  "description": "More additional, less vanilla additions to the carpet mod",
+  "authors": [
+    "roridev"
+  ],
+  "contact": {
+    "homepage": "https://github.com/siscodeorg/carpet-surplus",
+    "issues": "https://github.com/siscodeorg/carpet-surplus/issues",
+    "sources": "https://github.com/siscodeorg/carpet-surplus"
+  },
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "carpetsurplus.CarpetSurplusServer"
+    ]
+  },
+  "mixins": [
+    "carpet-surplus.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "carpet": "*",
+    "minecraft": "1.17.x"
+  },
+  "custom": {
+    "modmenu": {
+      "parent": "carpet"
+    }
+  }
+}

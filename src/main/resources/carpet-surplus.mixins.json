@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "carpetsurplus.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "DispenserMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
