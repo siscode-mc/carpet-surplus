@@ -3,7 +3,8 @@
   "package": "carpetsurplus.mixins",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "DispenserMixin"
+    "DispenserMixin",
+    "SpawnHelperMixin"
   ],
   "injectors": {
     "defaultRequire": 1
