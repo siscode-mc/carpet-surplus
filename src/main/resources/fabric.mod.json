@@ -23,7 +23,7 @@
   "mixins": [
     "carpet-surplus.mixins.json"
   ],
-
+  "accessWidener" : "carpet-surplus.accesswidener",
   "depends": {
     "fabricloader": ">=0.12.7",
     "carpet": "*",

@@ -27,6 +27,10 @@ tasks.withType(JavaCompile) {
     options.encoding = "UTF-8"
 }
 
+loom {
+    accessWidenerPath = file("src/main/resources/carpet-surplus.accesswidener")
+}
+
 
 repositories {
     maven {
