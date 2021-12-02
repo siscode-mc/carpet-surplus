@@ -4,6 +4,7 @@
   "compatibilityLevel": "JAVA_8",
   "mixins": [
     "DispenserMixin",
+    "MobEntity_despawnMixin",
     "SpawnHelperMixin"
   ],
   "injectors": {

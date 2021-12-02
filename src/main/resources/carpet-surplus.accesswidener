@@ -1,1 +1,3 @@
 accessWidener	v1	named
+
+accessible method net/minecraft/server/world/ChunkTicketManager getTicketSet (J)Lnet/minecraft/util/collection/SortedArraySet;

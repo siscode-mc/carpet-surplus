@@ -20,4 +20,9 @@ public class CarpetSurplusSettings {
     )
     public static boolean heightmapIndependentSpawning = false;
 
+    @Rule(
+            desc = "Makes it so mobs no longer despawn from chunks which are loaded by some other method than a player",
+            category = {FEATURE, SURPLUS})
+    public static boolean localDespawning = false;
+
 }
